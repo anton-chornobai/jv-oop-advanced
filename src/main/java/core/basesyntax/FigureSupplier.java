@@ -7,7 +7,7 @@ public class FigureSupplier {
     private static final int MIN_DIMENSION = 1;
     private static final int MAX_DIMENSION = 10;
     private static final int DEFAULT_RADIUS = 10;
-    private static final String DEFAULT_COLOR = Color.WHITE.name().toLowerCase();
+    private static final String DEFAULT_COLOR = Color.WHITE.name();
 
     private final Random random = new Random();
     private final ColorSupplier colorSupplier = new ColorSupplier();
